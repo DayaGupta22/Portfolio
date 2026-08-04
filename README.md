@@ -4,7 +4,7 @@ A modern, responsive, and interactive developer portfolio built with **React.js*
 
 ## 🌐 Live Demo
 
-🔗 https://your-portfolio-link.vercel.app
+🔗 https://portfolio-git-main-dayanand-kumar-guptas-projects.vercel.app/
 
 ---
 
