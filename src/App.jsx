@@ -57,12 +57,12 @@ const C = {
 };
 
 const LINKS = {
-  github: "https://github.com/sanjeet8969",
-  linkedin: "https://www.linkedin.com/in/sanjeet-kumar-gupta-259061277",
-  leetcode: "https://leetcode.com/u/sanjeeet8969/",
-  gfg: "https://www.geeksforgeeks.org/user/sanjeets8969/",
-  email: "sanjeetskg1212@gmail.com",
-  phone: "+91-8210115608",
+  github: "https://github.com/DayaGupta22",
+  linkedin: "https://www.linkedin.com/in/dayanand-kumar-gupta",
+  leetcode: "https://leetcode.com/u/Dayagupta12/",
+  gfg: "https://www.geeksforgeeks.org/profile/dayanandkum8hmu",
+  email: "dayanandkumargupta08@gmail.com",
+  phone: "+91-7780043405",
 };
 
 const PROJECTS = [
@@ -76,22 +76,21 @@ const PROJECTS = [
       "Architected a job portal handling 50+ concurrent users, with a MongoDB backend for complex listing queries, Zod for strict schema validation, and JWT-based role-based access control.",
   },
   {
-    title: "Byte Builders",
-    live: "https://byte-builder.netlify.app/",
+    title: "Employee Management System with JWT Authentication",
+    live: "https",
     color: C.coral,
     tags: ["React.js", "Tailwind CSS", "Monaco Editor"],
-    problem: "Developers need a fast, in-browser way to write and run code across multiple languages.",
+    problem: "Secure Employee Management System with JWT Authentication using Spring Boot",
     approach:
-      "Built an online code editor supporting 10+ languages, integrating the Judge0 API for real-time compilation with sub-second output, on a split-pane layout powered by the Monaco Editor engine.",
+      "Developed a secure Employee Management System using Spring Boot to manage employee records with JWT authentication, CRUD operations, MySQL integration, pagination, sorting, and search, ensuring secure and efficient data management.",
   },
   {
-    title: "Tatanagar Treats",
-    live: "https://tatanagar-treats.web.app/",
-    color: C.mustard,
-    tags: ["React.js", "Redux", "Tailwind CSS"],
-    problem: "Jamshedpur needed a hyper-local food delivery experience with live restaurant data.",
+    title: "AI Interview Simulator",
+    live: "https:",
+    tags: ["React.js", "Redux", "Tailwind CSS","MongoDB"],
+    problem: "AI Interview Simulator that analyzes resumes against job descriptions and generates personalized interview questions using Generative AI",
     approach:
-      "Developed a food delivery platform integrating the Swiggy API for real-time menus and pricing, with a responsive mobile-first UI/UX to streamline the ordering flow.",
+      "Developed an AI Interview Simulator using React.js, Node.js, Express.js, MongoDB, and Generative AI. Built features for resume parsing, job-description matching, skill-gap analysis, AI-generated interview questions, and personalized feedback. Designed responsive user interfaces and scalable REST APIs to deliver an interactive interview practice experience with learn",
   },
 ];
 
@@ -263,7 +262,7 @@ export default function App() {
         <div className="max-w-[1000px] mx-auto px-6 md:px-10 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2" style={{ fontFamily: "'Kalam', cursive", fontSize: "1.4rem" }}>
             <PenLine size={18} style={{ color: C.coral }} />
-            Sanjeet's notebook
+            Dayanand's notebook
           </div>
           <div className="hidden md:flex items-center gap-3" style={{ color: C.inkDim }}>
             <a href={LINKS.github} target="_blank" rel="noreferrer" className="hover:opacity-70"><Github size={18} /></a>
@@ -281,7 +280,7 @@ export default function App() {
             — page 1, hi there
           </p>
           <h1 className="mb-3" style={{ fontFamily: "'Kalam', cursive", fontSize: "clamp(2.4rem, 6vw, 3.6rem)", lineHeight: 1.1 }}>
-            Hi, I'm Sanjeet.
+            Hi, I'm Dayanand.
           </h1>
           <p className="text-lg md:text-xl max-w-[560px] mb-10" style={{ color: C.inkDim }}>
             A MERN stack developer, fresh out of college — I solve the problem on paper before I ever open the editor.
@@ -300,7 +299,7 @@ export default function App() {
               className="px-6 py-3 rounded-sm font-mono text-sm border-2"
               style={{ borderColor: C.ink, color: C.ink }}
             >
-              Say hello
+              Say Hello
             </a>
           </div>
         </section>
@@ -311,19 +310,18 @@ export default function App() {
           <IndexCard rotate={-0.6}>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <p className="md:col-span-2" style={{ color: C.inkDim, fontSize: "1.02rem", lineHeight: 1.75 }}>
-                I'm a <strong style={{ color: C.ink }}>B.Tech CSE graduate</strong> from University College of Engineering and
-                Technology, Hazaribagh, currently working as a{" "}
-                <strong style={{ color: C.ink }}>Software Developer Intern at Ecera System</strong>. There I spearheaded
+                I'm a <strong style={{ color: C.ink }}>B.Tech CSE graduate</strong> from Rvs College Of Engineering And Technology , Jamshedpur, currently working as a{" "}
+                <strong style={{ color: C.ink }}>Frontend Developer Intern at BlueStock.in</strong>. There I spearheaded
                 scalable features for a Matrimonial App and a Job Platform on the MERN stack — coordinating a team of 4 and
                 shipping REST APIs that cut backend response times by 20%.
                 <br />
                 <br />
-                I spend a lot of time on <strong style={{ color: C.ink }}>DSA</strong>: 670+ problems on GeeksforGeeks
-                (Institute Rank 10) and 250+ on LeetCode. I think good development starts with good reasoning — that's the
+                I spend a lot of time on <strong style={{ color: C.ink }}>DSA</strong>: 250+ problems on GeeksforGeeks
+                (Institute Rank 20) and 250+ on LeetCode. I think good development starts with good reasoning — that's the
                 habit behind how I break down features and design APIs.
               </p>
               <div className="flex flex-col gap-4 justify-center">
-                <Stamp rotate={-8}>{"RANK 10\nGFG"}</Stamp>
+                <Stamp rotate={-8}>{"RANK 20\nGFG"}</Stamp>
                 <Stamp rotate={5} color={C.teal}>{"250+\nLEETCODE"}</Stamp>
               </div>
             </div>
@@ -334,9 +332,9 @@ export default function App() {
         <section id="skills" className="py-12 md:py-16">
           <SectionLabel>what's on my desk</SectionLabel>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <StickyNote title="Languages" tags={["C++", "JavaScript (ES6+)", "HTML5", "CSS3"]} color="#F0DFA0" rotate={-1.5} />
-            <StickyNote title="Technologies" tags={["React.js", "Node.js", "Express.js", "MongoDB", "MySQL", "Redux", "Tailwind"]} color="#C9E4DB" rotate={1} />
-            <StickyNote title="Developer Tools" tags={["Git", "GitHub", "Postman", "Vercel", "Render"]} color="#F0CFC0" rotate={0.8} />
+            <StickyNote title="Languages" tags={["C++", "JavaScript (ES6+)", "HTML5", "CSS3","JAVA"]} color="#F0DFA0" rotate={-1.5} />
+            <StickyNote title="Technologies" tags={["React.js", "Node.js","Spring Boot", "Express.js", "MongoDB", "MySQL", "Redux", "Tailwind"]} color="#C9E4DB" rotate={1} />
+            <StickyNote title="Developer Tools" tags={["Git", "GitHub", "Postman", "Vercel", "Render","DBeaver"]} color="#F0CFC0" rotate={0.8} />
             <StickyNote title="Coursework" tags={["DSA", "DBMS", "OOP", "Operating Systems", "Computer Networks"]} color="#DCE0EF" rotate={-0.8} />
           </div>
         </section>
@@ -387,18 +385,18 @@ export default function App() {
           <div style={{ borderLeft: `2px dashed ${C.line}` }} className="pl-8 space-y-10">
             {[
               {
-                title: "Software Developer Intern — Ecera System",
-                meta: "Oct 2025 – Jan 2026 · Remote",
-                desc: "Spearheaded scalable features for a Matrimonial App and Job Platform on the MERN stack. Coordinated a team of 4 with 100% on-time delivery. Optimized backend response times by 20% with secure JWT-based REST APIs.",
+                title: "Frontend Developer - BlueStock.in",
+                meta: "May 2025 – July 2025 · Remote",
+                desc: "Developed responsive and reusable React.js components from UI/UX designs, built modern interfaces using Tailwind CSS, integrated RESTful APIs for seamless frontend-backend communication, and collaborated with cross-functional teams using Git and Agile methodologies to deliver scalable, high-performance applications with improved user experience, responsiveness, and maintainable code.",
               },
               {
                 title: "B.Tech, Computer Science and Engineering",
-                meta: "UCET, Hazaribagh · Nov 2022 – July 2026 · CGPA 7.1",
+                meta: "RVSCET , Jamshedpur · Nov 2022 – July 2026 · CGPA 8.01",
                 desc: "",
               },
               {
                 title: "Intermediate",
-                meta: "Marwari College, Ranchi · June 2022 · 86%",
+                meta: "Marwari College, Ranchi · June 2022 · 86.20%",
                 desc: "",
               },
             ].map((item) => (
@@ -437,7 +435,7 @@ export default function App() {
       </main>
 
       <footer className="max-w-[1000px] mx-auto px-6 md:px-10 pb-10 font-mono text-[0.72rem]" style={{ color: C.inkDim }}>
-        © 2026 Sanjeet Kumar Gupta — sketched, then shipped.
+        © 2026 Dayanand Kumar Gupta — sketched, then shipped.
       </footer>
     </div>
   );
