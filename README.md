@@ -1,65 +1,244 @@
-# Sanjeet Kumar Gupta — Portfolio
+# 📒 Developer Portfolio
 
-A personal developer portfolio built with **React** and **Tailwind CSS**, featuring an interactive terminal hero, a hand-drawn "Problem → Think → Code → Ship" diagram, and sections for skills, projects, experience, and achievements.
+A modern, responsive, and interactive developer portfolio built with **React.js** and **Tailwind CSS**, featuring a creative notebook-inspired design. The portfolio showcases my projects, technical skills, work experience, and achievements as a **MERN Stack** and **Java Full Stack Developer**.
 
-📄 **[Resume](https://drive.google.com/file/d/1jxxF-vf8jEX5PFn5jO8S4b0J6cfGJ_eM/view?usp=drive_link)**
+## 🌐 Live Demo
+
+🔗 https://your-portfolio-link.vercel.app
 
 ---
 
-## About
+## ✨ Features
 
-I'm a recently graduated **B.Tech Computer Science** engineer from University College of Engineering and Technology, Hazaribagh, currently working as a **Software Developer Intern at Ecera System**. I focus on the MERN stack and spend a lot of time on DSA and problem solving.
+- 📱 Fully Responsive Design
+- 🎨 Notebook & Handwritten UI Theme
+- ⚡ Smooth and Modern User Experience
+- 👨‍💻 About Me Section
+- 💼 Experience Timeline
+- 🚀 Featured Projects
+- 🛠️ Technical Skills
+- 📞 Contact Information
+- 🔗 Social Media Integration
+- 📄 Clean and Reusable Components
 
-- 🏅 Institute Rank 10 on GeeksforGeeks — 670+ problems solved
-- 🏅 250+ problems solved on LeetCode, 10+ badges
+---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- **Frontend:** React.js, Tailwind CSS
-- **Icons:** Inline SVG (no external icon package)
-- **Fonts:** Kalam (handwriting), Inter (body), JetBrains Mono (code/labels)
+### Frontend
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+- HTML5
+- CSS3
 
-## Projects Featured
+### Backend Knowledge
+- Node.js
+- Express.js
+- Spring Boot
+- REST APIs
 
-| Project | Stack | Live |
-|---|---|---|
-| Work Finder | React, Node.js, Express, MongoDB, Tailwind | [Live](https://work-finder-m7mo.onrender.com/) |
-| Byte Builders | React, Tailwind, Monaco Editor, Judge0 API | [Live](https://byte-builder.netlify.app/) |
-| Tatanagar Treats | React, Redux, Tailwind, Swiggy API | [Live](https://tatanagar-treats.web.app/) |
+### Database
+- MongoDB
+- MySQL
 
-## Getting Started
+### Developer Tools
+- Git
+- GitHub
+- Postman
+- Vercel
+- Render
+- DBeaver
 
-```bash
-# Install dependencies
-npm install
+---
 
-# Start the dev server
-npm run dev
-```
+## 💻 Skills
 
-The app runs on Vite by default — open the printed local URL (usually `http://localhost:5173`) in your browser.
+### Languages
+- Java
+- JavaScript
+- C++
+- HTML
+- CSS
 
-## Project Structure
+### Frontend
+- React.js
+- Tailwind CSS
+- Redux
+
+### Backend
+- Spring Boot
+- Node.js
+- Express.js
+
+### Database
+- MongoDB
+- MySQL
+
+### Concepts
+- Data Structures & Algorithms
+- Object-Oriented Programming
+- DBMS
+- Operating Systems
+- Computer Networks
+- REST APIs
+- JWT Authentication
+
+---
+
+## 🚀 Featured Projects
+
+### 🔹 Work Finder
+A job portal that allows users to browse jobs, manage applications, and securely authenticate using JWT.
+
+**Tech Stack**
+
+- React.js
+- Node.js
+- Express.js
+- MongoDB
+- Tailwind CSS
+
+---
+
+### 🔹 Employee Management System
+
+A secure Employee Management System built using Spring Boot with JWT Authentication.
+
+#### Features
+
+- CRUD Operations
+- JWT Authentication
+- Role-Based Authorization
+- Pagination
+- Sorting
+- Search
+- MySQL Database
+
+**Tech Stack**
+
+- Spring Boot
+- Java
+- MySQL
+- React.js
+- JWT
+
+---
+
+### 🔹 AI Interview Simulator
+
+An AI-powered interview preparation platform that analyzes resumes and job descriptions to generate personalized interview questions and feedback.
+
+**Features**
+
+- Resume Parsing
+- Skill Gap Analysis
+- AI Generated Questions
+- Personalized Feedback
+- Responsive Dashboard
+
+**Tech Stack**
+
+- React.js
+- Node.js
+- Express.js
+- MongoDB
+- Generative AI
+
+---
+
+## 📂 Project Structure
 
 ```
 portfolio/
+│
+├── public/
 ├── src/
-│   ├── App.jsx        # Main portfolio component
-│   └── main.jsx        # Entry point
-├── index.html
+│   ├── components/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
 ├── package.json
+├── vite.config.js
 └── README.md
 ```
 
-## Contact
+---
 
-- **Email:** [sanjeetskg1212@gmail.com](mailto:sanjeetskg1212@gmail.com)
-- **Phone:** +91-8210115608
-- **GitHub:** [github.com/sanjeet8969](https://github.com/sanjeet8969)
-- **LinkedIn:** [linkedin.com/in/sanjeet-kumar-gupta-259061277](https://www.linkedin.com/in/sanjeet-kumar-gupta-259061277)
-- **LeetCode:** [leetcode.com/u/sanjeeet8969](https://leetcode.com/u/sanjeeet8969/)
-- **GeeksforGeeks:** [geeksforgeeks.org/user/sanjeets8969](https://www.geeksforgeeks.org/user/sanjeets8969/)
+## ⚙️ Installation
 
-## License
+Clone the repository
 
-This project is open for personal reference. Feel free to explore the code, but please don't republish the content (resume details, project write-ups) as your own.
+```bash
+git clone https://github.com/yourusername/portfolio.git
+```
+
+Navigate to the project
+
+```bash
+cd portfolio
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run locally
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 📈 Future Improvements
+
+- Dark Mode
+- Blog Section
+- Project Filtering
+- Download Resume
+- Animations with Framer Motion
+- Contact Form with Email Integration
+- Visitor Analytics
+
+---
+
+## 👨‍💻 About Me
+
+I'm **Dayanand Kumar Gupta**, a passionate **MERN Stack** and **Java Full Stack Developer** who enjoys building scalable, responsive, and user-friendly web applications. I love solving real-world problems through clean code, RESTful APIs, and modern software architecture while continuously learning new technologies.
+
+---
+
+## 📬 Contact
+
+📧 Email: dayanandkumargupta08@gmail.com
+
+💼 LinkedIn: https://linkedin.com/in/dayanand-kumar-gupta
+
+💻 GitHub: https://github.com/DayaGupta22
+
+🧩 LeetCode: https://leetcode.com/u/Dayagupta12/
+
+🏆 GeeksforGeeks: https://www.geeksforgeeks.org/profile/dayanandkum8hmu
+
+---
+
+## ⭐ Support
+
+If you like this project, don't forget to ⭐ the repository and feel free to fork it!
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.

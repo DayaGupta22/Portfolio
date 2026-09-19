@@ -77,21 +77,24 @@ const PROJECTS = [
   },
   {
     title: "Employee Management System with JWT Authentication",
-    live: "https",
+    live: "https://github.com/DayaGupta22/EmployeeAuthManager",
     color: C.coral,
-    tags: ["React.js", "Tailwind CSS", "Monaco Editor"],
+    tags: ["SpringBoot", "Spring Security", "Intellij idea"],
     problem: "Secure Employee Management System with JWT Authentication using Spring Boot",
     approach:
       "Developed a secure Employee Management System using Spring Boot to manage employee records with JWT authentication, CRUD operations, MySQL integration, pagination, sorting, and search, ensuring secure and efficient data management.",
   },
   {
-    title: "AI Interview Simulator",
-    live: "https:",
-    tags: ["React.js", "Redux", "Tailwind CSS","MongoDB"],
-    problem: "AI Interview Simulator that analyzes resumes against job descriptions and generates personalized interview questions using Generative AI",
-    approach:
-      "Developed an AI Interview Simulator using React.js, Node.js, Express.js, MongoDB, and Generative AI. Built features for resume parsing, job-description matching, skill-gap analysis, AI-generated interview questions, and personalized feedback. Designed responsive user interfaces and scalable REST APIs to deliver an interactive interview practice experience with learn",
-  },
+  title: "Airbnb - Hotel Booking Platform",
+
+  live: "https://github.com/DayaGupta22/AirBnbApp",
+color: C.mustard,
+  tags: ["Java", "Spring Boot", "Spring Security", "PostgreSQL", "JPA", "Stripe"],
+  problem:
+    "Hotel booking platform for managing rooms, availability, reservations, and online payments.",
+  approach:
+    "Built a secure RESTful backend using Spring Boot, Spring Security, JPA, Hibernate, and PostgreSQL. Implemented authentication, hotel search, room availability, inventory, and booking workflows, with Stripe payment integration and DTO-based API architecture."
+},
 ];
 
 // ---------------- Hand-drawn hero diagram ----------------
