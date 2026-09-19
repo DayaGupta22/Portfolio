@@ -1,10 +1,10 @@
-# 📒 Developer Portfolio
+# 📒 Dayanand Portfolio
 
 A modern, responsive, and interactive developer portfolio built with **React.js** and **Tailwind CSS**, featuring a creative notebook-inspired design. The portfolio showcases my projects, technical skills, work experience, and achievements as a **MERN Stack** and **Java Full Stack Developer**.
 
 ## 🌐 Live Demo
 
-🔗 https://your-portfolio-link.vercel.app
+🔗 https://portfolio-git-main-dayanand-kumar-guptas-projects.vercel.app/
 
 ---
 
